@@ -1,0 +1,69 @@
+.search{
+    text-align: left;
+}
+form{
+
+    height: 50px;
+    display: flex;
+    align-items: flex-start;  
+    align-items: center;
+    
+}
+
+.formDot {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    height: 50px;
+    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+}
+.formInput{
+    background-color: #F2F2F2;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.formInput AutoComplete{
+    background-color: white;
+    height: 95%;
+    padding: 0;
+    font-weight: 700;
+    border: none;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.formButton button{
+    height: 50px;
+    width: 110px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    font-weight: 700;
+    background-color: #0065FC;
+    color : white;
+}
+.searchFilters{
+    display: flex;
+    align-items: flex-start;  
+    align-items: center;
+}
+.searchLastLine{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.infoBublle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #F2F2F2;
+}
+.infoBublle svg {
+    color: #0065FC;
+    font-size: small;
+}

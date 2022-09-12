@@ -1,0 +1,39 @@
+.filterGroup{
+    display: flex;
+    align-items: flex-start;  
+    align-items: center;
+
+}
+.filterButton{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 46px;
+    z-index: 1;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+}
+.filterText{
+    padding: 0px 20px 0px 20px;
+    font-size: large;
+    font-weight: 700;
+}
+.iconFilter{
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    margin-left: -2px;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
+.filterPad{
+    padding : 0px 20px 0px 20px; 
+}
+.filtreP{
+    text-align: left;
+    padding-left: 0;
+}
