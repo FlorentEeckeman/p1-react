@@ -1,15 +1,19 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // 
+import { solid} from '@fortawesome/fontawesome-svg-core/import.macro' // 
 import ('./filter.css')
 
 const dataIcon = ['money-bill-wave', 'child-reaching', 'heart', 'dog']
+
+const getEconomique = () => {
+    
+}
 
 
 function logo (index){
     switch(index) {
         case 'money-bill-wave':
             return (
-            <div className='filterButton'>
+            <div className='filterButton' onClick={getEconomique}>
                 <div className='iconFilter'>
                 <FontAwesomeIcon icon={solid('money-bill-wave')}/>
                 </div>
